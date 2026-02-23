@@ -1,102 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Best Event Management Services at Erattupetta - Creating Unforgettable Moments">
-    <title>RHM Events & Wedding company</title>
-    <link rel="icon" href="assets/images/logos/favicon.ico" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- SEO & Meta Tags -->
+  <meta name="description"
+    content="Best Event Management Services at Erattupetta, Kerala - Creating Unforgettable Moments for weddings, corporate events, and parties.">
+  <meta name="keywords" content="event management, wedding planner, erattupetta, kerala, stage decor, panthal works">
+  <title>RHM Events & Wedding Company - Erattupetta</title>
 
-    <!-- Font Loading -->
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
-    <link
-      rel="stylesheet"
-      as="style"
-      onload="this.rel='stylesheet'"
-      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Plus+Jakarta+Sans%3Awght%40400%3B500%3B700%3B800"
-    />
+  <!-- Open Graph Tags -->
+  <meta property="og:title" content="RHM Events & Wedding Company - Erattupetta">
+  <meta property="og:description"
+    content="Creating unforgettable events and weddings in Erattupetta, Kerala. We specialize in planning, decor, and management.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://rhmevents.com">
+  <meta property="og:image" content="https://rhmevents.com/assets/images/hero/hero_image1.webp">
 
-    <!-- CSS Dependencies -->
-    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- JSON-LD LocalBusiness Schema -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "RHM Events & Wedding Company",
+      "image": "https://rhmevents.com/assets/images/logos/logo.jpg",
+      "description": "Best Event Management Services at Erattupetta - Creating Unforgettable Moments",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Erattupetta",
+        "addressRegion": "Kerala",
+        "addressCountry": "IN"
+      },
+      "telephone": "+911234567890" 
+    }
+    </script>
+  <link rel="icon" href="assets/images/logos/favicon.ico" type="image/x-icon">
 
-    <!-- Path Configuration Script -->
-    <script src="assets/js/path-config.js"></script>
+  <!-- Font Loading -->
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+  <link rel="stylesheet" as="style" onload="this.rel='stylesheet'"
+    href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Plus+Jakarta+Sans%3Awght%40400%3B500%3B700%3B800" />
+
+  <!-- CSS Dependencies -->
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+  <!-- Path Configuration Script -->
+  <script src="assets/js/path-config.js"></script>
 </head>
-<body>
-    <div class="relative flex size-full min-h-screen flex-col bg-[#fcfbf8] group/design-root overflow-x-hidden" style='font-family: "Plus Jakarta Sans", "Noto Sans", sans-serif;'>
-      <div class="layout-container flex h-full grow flex-col">
-        
-        <!-- Header with Dynamic Navigation -->
-        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#f4f0e6] px-10 py-3">
-          <div class="flex items-center gap-4 text-[#1c180d]">
-            <div class="size-6 flex items-center">
-              <img src="assets/images/logos/logo.jpg" alt="RHM Events Logo" class="h-6 w-auto" />
-            </div>
-            <h1 class="text-[#1c180d] text-lg font-bold leading-tight tracking-[-0.015em]">RHM Events</h1>
-          </div>
-          
-          <!-- Navigation with Dynamic Links -->
-          <div class="flex flex-1 justify-end gap-8">
-            <div class="flex items-center gap-9">
-              <a id="nav-home" class="text-[#1c180d] text-sm font-medium leading-normal" href="/">Home</a>
-              <a id="nav-gallery" class="text-[#1c180d] text-sm font-medium leading-normal" href="./pages/gallery.html">Events Gallery</a>
-              <a id="nav-about" class="text-[#1c180d] text-sm font-medium leading-normal" href="./pages/about.html">About Us</a>
-              <a id="nav-contact" class="text-[#1c180d] text-sm font-medium leading-normal" href="./pages/contact.html">Contact</a>
-            </div>
-            <button
-              class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-[#fac638] text-[#1c180d] text-sm font-bold leading-normal tracking-[0.015em]"
-            >
-              <span class="truncate">Get a Quote</span>
-            </button>
-          </div>
-        </header>
 
-        <div class="px-40 flex flex-1 justify-center py-5">
-          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
-            <div class="@container">
-              <div class="@[480px]:p-4">
-                <div
-                  id="hero-section"
-                  class="flex min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[480px]:rounded-lg items-center justify-center p-4"
-                  style='background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%), url("assets/images/hero/hero_image1.jpg");'
-                >
-                  <div class="flex flex-col gap-2 text-center">
-                    <h1
-                      class="text-white text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em]"
-                    >
-                      Crafting Unforgettable Moments
-                    </h1>
-                    <h2 class="text-white text-sm font-normal leading-normal @[480px]:text-base @[480px]:font-normal @[480px]:leading-normal">
-                      RHM Events &amp; Wedding Company specializes in creating bespoke events that reflect your unique style and vision. From intimate gatherings to grand
-                      celebrations, we handle every detail with precision and care.
-                    </h2>
-                  </div>
-                  <button
-                    class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-[#fac638] text-[#1c180d] text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em]"
-                  >
-                    <span class="truncate">Get a Quote</span>
-                  </button>
+<body>
+  <div class="relative flex size-full min-h-screen flex-col bg-[#fcfbf8] group/design-root overflow-x-hidden"
+    style='font-family: "Plus Jakarta Sans", "Noto Sans", sans-serif;'>
+    <div class="layout-container flex h-full grow flex-col">
+
+      <!-- Header with Dynamic Navigation -->
+      <header
+        class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#f4f0e6] px-10 py-3">
+        <div class="flex items-center gap-4 text-[#1c180d]">
+          <div class="size-6 flex items-center">
+            <img src="assets/images/logos/logo.jpg" alt="RHM Events Logo" class="h-6 w-auto" />
+          </div>
+          <h1 class="text-[#1c180d] text-lg font-bold leading-tight tracking-[-0.015em]">RHM Events</h1>
+        </div>
+
+        <!-- Navigation with Dynamic Links -->
+        <div class="flex flex-1 justify-end gap-8">
+          <div class="flex items-center gap-9">
+            <a id="nav-home" class="text-[#1c180d] text-sm font-medium leading-normal" href="#hero-section">Home</a>
+            <a id="nav-gallery" class="text-[#1c180d] text-sm font-medium leading-normal" href="#gallery">Events
+              Gallery</a>
+            <a id="nav-about" class="text-[#1c180d] text-sm font-medium leading-normal" href="#about">About Us</a>
+            <a id="nav-contact" class="text-[#1c180d] text-sm font-medium leading-normal" href="#contact">Contact</a>
+          </div>
+          <button
+            class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-[#fac638] text-[#1c180d] text-sm font-bold leading-normal tracking-[0.015em]">
+            <span class="truncate">Get a Quote</span>
+          </button>
+        </div>
+      </header>
+
+      <div class="px-40 flex flex-1 justify-center py-5">
+        <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+          <div class="@container">
+            <div class="@[480px]:p-4">
+              <div id="hero-section"
+                class="flex min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[480px]:rounded-lg items-center justify-center p-4 transition-all duration-500"
+                style='background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%), url("assets/images/hero/hero_image1.webp");'>
+                <div class="flex flex-col gap-2 text-center">
+                  <h1
+                    class="text-white text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em]">
+                    Crafting Unforgettable Moments
+                  </h1>
+                  <h2
+                    class="text-white text-sm font-normal leading-normal @[480px]:text-base @[480px]:font-normal @[480px]:leading-normal">
+                    RHM Events &amp; Wedding Company specializes in creating bespoke events that reflect your unique
+                    style and vision. From intimate gatherings to grand
+                    celebrations, we handle every detail with precision and care.
+                  </h2>
                 </div>
+                <button
+                  class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-[#fac638] text-[#1c180d] text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em]">
+                  <span class="truncate">Get a Quote</span>
+                </button>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <!-- services section -->
-      <div class="relative flex size-full min-h-screen flex-col bg-[#fbfaf9] group/design-root overflow-x-hidden" style='font-family: "Plus Jakarta Sans", "Noto Sans", sans-serif;'>
+    </div>
+    <!-- services section -->
+    <div class="relative flex size-full min-h-screen flex-col bg-[#fbfaf9] group/design-root overflow-x-hidden"
+      style='font-family: "Plus Jakarta Sans", "Noto Sans", sans-serif;'>
       <div class="layout-container flex h-full grow flex-col">
         <div class="px-40 flex flex-1 justify-center py-5">
           <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
-            <h2 id="services" class="text-[#191610] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Our Services</h2>
+            <h2 id="services"
+              class="text-[#191610] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Our Services
+            </h2>
             <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
               <div class="flex flex-1 gap-3 rounded-lg border border-[#e3dfd3] bg-[#fbfaf9] p-4 flex-col">
                 <div class="text-[#191610]" data-icon="Calendar" data-size="24px" data-weight="regular">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor"
+                    viewBox="0 0 256 256">
                     <path
-                      d="M208,32H184V24a8,8,0,0,0-16,0v8H88V24a8,8,0,0,0-16,0v8H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM72,48v8a8,8,0,0,0,16,0V48h80v8a8,8,0,0,0,16,0V48h24V80H48V48ZM208,208H48V96H208V208Zm-96-88v64a8,8,0,0,1-16,0V132.94l-4.42,2.22a8,8,0,0,1-7.16-14.32l16-8A8,8,0,0,1,112,120Zm59.16,30.45L152,176h16a8,8,0,0,1,0,16H136a8,8,0,0,1-6.4-12.8l28.78-38.37A8,8,0,1,0,145.07,132a8,8,0,1,1-13.85-8A24,24,0,0,1,176,136,23.76,23.76,0,0,1,171.16,150.45Z"
-                    ></path>
+                      d="M208,32H184V24a8,8,0,0,0-16,0v8H88V24a8,8,0,0,0-16,0v8H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM72,48v8a8,8,0,0,0,16,0V48h80v8a8,8,0,0,0,16,0V48h24V80H48V48ZM208,208H48V96H208V208Zm-96-88v64a8,8,0,0,1-16,0V132.94l-4.42,2.22a8,8,0,0,1-7.16-14.32l16-8A8,8,0,0,1,112,120Zm59.16,30.45L152,176h16a8,8,0,0,1,0,16H136a8,8,0,0,1-6.4-12.8l28.78-38.37A8,8,0,1,0,145.07,132a8,8,0,1,1-13.85-8A24,24,0,0,1,176,136,23.76,23.76,0,0,1,171.16,150.45Z">
+                    </path>
                   </svg>
                 </div>
                 <div class="flex flex-col gap-1">
@@ -106,105 +138,344 @@
               </div>
               <div class="flex flex-1 gap-3 rounded-lg border border-[#e3dfd3] bg-[#fbfaf9] p-4 flex-col">
                 <div class="text-[#191610]" data-icon="Calendar" data-size="24px" data-weight="regular">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor"
+                    viewBox="0 0 256 256">
                     <path
-                      d="M208,32H184V24a8,8,0,0,0-16,0v8H88V24a8,8,0,0,0-16,0v8H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM72,48v8a8,8,0,0,0,16,0V48h80v8a8,8,0,0,0,16,0V48h24V80H48V48ZM208,208H48V96H208V208Zm-96-88v64a8,8,0,0,1-16,0V132.94l-4.42,2.22a8,8,0,0,1-7.16-14.32l16-8A8,8,0,0,1,112,120Zm59.16,30.45L152,176h16a8,8,0,0,1,0,16H136a8,8,0,0,1-6.4-12.8l28.78-38.37A8,8,0,1,0,145.07,132a8,8,0,1,1-13.85-8A24,24,0,0,1,176,136,23.76,23.76,0,0,1,171.16,150.45Z"
-                    ></path>
+                      d="M208,32H184V24a8,8,0,0,0-16,0v8H88V24a8,8,0,0,0-16,0v8H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM72,48v8a8,8,0,0,0,16,0V48h80v8a8,8,0,0,0,16,0V48h24V80H48V48ZM208,208H48V96H208V208Zm-96-88v64a8,8,0,0,1-16,0V132.94l-4.42,2.22a8,8,0,0,1-7.16-14.32l16-8A8,8,0,0,1,112,120Zm59.16,30.45L152,176h16a8,8,0,0,1,0,16H136a8,8,0,0,1-6.4-12.8l28.78-38.37A8,8,0,1,0,145.07,132a8,8,0,1,1-13.85-8A24,24,0,0,1,176,136,23.76,23.76,0,0,1,171.16,150.45Z">
+                    </path>
                   </svg>
                 </div>
                 <div class="flex flex-col gap-1">
                   <h2 class="text-[#191610] text-base font-bold leading-tight">Event Management</h2>
-                  <p class="text-[#8c7f5a] text-sm font-normal leading-normal">Seamless execution for memorable events.</p>
+                  <p class="text-[#8c7f5a] text-sm font-normal leading-normal">Seamless execution for memorable events.
+                  </p>
                 </div>
               </div>
               <div class="flex flex-1 gap-3 rounded-lg border border-[#e3dfd3] bg-[#fbfaf9] p-4 flex-col">
                 <div class="text-[#191610]" data-icon="Lightbulb" data-size="24px" data-weight="regular">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor"
+                    viewBox="0 0 256 256">
                     <path
-                      d="M176,232a8,8,0,0,1-8,8H88a8,8,0,0,1,0-16h80A8,8,0,0,1,176,232Zm40-128a87.55,87.55,0,0,1-33.64,69.21A16.24,16.24,0,0,0,176,186v6a16,16,0,0,1-16,16H96a16,16,0,0,1-16-16v-6a16,16,0,0,0-6.23-12.66A87.59,87.59,0,0,1,40,104.49C39.74,56.83,78.26,17.14,125.88,16A88,88,0,0,1,216,104Zm-16,0a72,72,0,0,0-73.74-72c-39,.92-70.47,33.39-70.26,72.39a71.65,71.65,0,0,0,27.64,56.3A32,32,0,0,1,96,186v6h64v-6a32.15,32.15,0,0,1,12.47-25.35A71.65,71.65,0,0,0,200,104Zm-16.11-9.34a57.6,57.6,0,0,0-46.56-46.55,8,8,0,0,0-2.66,15.78c16.57,2.79,30.63,16.85,33.44,33.45A8,8,0,0,0,176,104a9,9,0,0,0,1.35-.11A8,8,0,0,0,183.89,94.66Z"
-                    ></path>
+                      d="M176,232a8,8,0,0,1-8,8H88a8,8,0,0,1,0-16h80A8,8,0,0,1,176,232Zm40-128a87.55,87.55,0,0,1-33.64,69.21A16.24,16.24,0,0,0,176,186v6a16,16,0,0,1-16,16H96a16,16,0,0,1-16-16v-6a16,16,0,0,0-6.23-12.66A87.59,87.59,0,0,1,40,104.49C39.74,56.83,78.26,17.14,125.88,16A88,88,0,0,1,216,104Zm-16,0a72,72,0,0,0-73.74-72c-39,.92-70.47,33.39-70.26,72.39a71.65,71.65,0,0,0,27.64,56.3A32,32,0,0,1,96,186v6h64v-6a32.15,32.15,0,0,1,12.47-25.35A71.65,71.65,0,0,0,200,104Zm-16.11-9.34a57.6,57.6,0,0,0-46.56-46.55,8,8,0,0,0-2.66,15.78c16.57,2.79,30.63,16.85,33.44,33.45A8,8,0,0,0,176,104a9,9,0,0,0,1.35-.11A8,8,0,0,0,183.89,94.66Z">
+                    </path>
                   </svg>
                 </div>
                 <div class="flex flex-col gap-1">
                   <h2 class="text-[#191610] text-base font-bold leading-tight">Light &amp; Sound Works</h2>
-                  <p class="text-[#8c7f5a] text-sm font-normal leading-normal">Enhance your event with stunning visuals and sound.</p>
+                  <p class="text-[#8c7f5a] text-sm font-normal leading-normal">Enhance your event with stunning visuals
+                    and sound.</p>
                 </div>
               </div>
               <div class="flex flex-1 gap-3 rounded-lg border border-[#e3dfd3] bg-[#fbfaf9] p-4 flex-col">
                 <div class="text-[#191610]" data-icon="Tent" data-size="24px" data-weight="regular">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor"
+                    viewBox="0 0 256 256">
                     <path
-                      d="M255.31,196.75l-64-144A8,8,0,0,0,184,48H72a8,8,0,0,0-7.27,4.69.21.21,0,0,0,0,.06l0,.12,0,0L.69,196.75A8,8,0,0,0,8,208H248a8,8,0,0,0,7.31-11.25ZM64,192H20.31L64,93.7Zm16,0V93.7L123.69,192Zm61.2,0L84.31,64H178.8l56.89,128Z"
-                    ></path>
+                      d="M255.31,196.75l-64-144A8,8,0,0,0,184,48H72a8,8,0,0,0-7.27,4.69.21.21,0,0,0,0,.06l0,.12,0,0L.69,196.75A8,8,0,0,0,8,208H248a8,8,0,0,0,7.31-11.25ZM64,192H20.31L64,93.7Zm16,0V93.7L123.69,192Zm61.2,0L84.31,64H178.8l56.89,128Z">
+                    </path>
                   </svg>
                 </div>
                 <div class="flex flex-col gap-1">
                   <h2 class="text-[#191610] text-base font-bold leading-tight">Panthal Works</h2>
-                  <p class="text-[#8c7f5a] text-sm font-normal leading-normal">Traditional and modern panthal designs.</p>
+                  <p class="text-[#8c7f5a] text-sm font-normal leading-normal">Traditional and modern panthal designs.
+                  </p>
                 </div>
               </div>
               <div class="flex flex-1 gap-3 rounded-lg border border-[#e3dfd3] bg-[#fbfaf9] p-4 flex-col">
                 <div class="text-[#191610]" data-icon="MicrophoneStage" data-size="24px" data-weight="regular">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor"
+                    viewBox="0 0 256 256">
                     <path
-                      d="M168,16A72.07,72.07,0,0,0,96,88a73.29,73.29,0,0,0,.63,9.42L27.12,192.22A15.93,15.93,0,0,0,28.71,213L43,227.29a15.93,15.93,0,0,0,20.78,1.59l94.81-69.53A73.29,73.29,0,0,0,168,160a72,72,0,1,0,0-144Zm56,72a55.72,55.72,0,0,1-11.16,33.52L134.49,43.16A56,56,0,0,1,224,88ZM54.32,216,40,201.68,102.14,117A72.37,72.37,0,0,0,139,153.86ZM112,88a55.67,55.67,0,0,1,11.16-33.51l78.34,78.34A56,56,0,0,1,112,88Zm-2.35,58.34a8,8,0,0,1,0,11.31l-8,8a8,8,0,1,1-11.31-11.31l8-8A8,8,0,0,1,109.67,146.33Z"
-                    ></path>
+                      d="M168,16A72.07,72.07,0,0,0,96,88a73.29,73.29,0,0,0,.63,9.42L27.12,192.22A15.93,15.93,0,0,0,28.71,213L43,227.29a15.93,15.93,0,0,0,20.78,1.59l94.81-69.53A73.29,73.29,0,0,0,168,160a72,72,0,1,0,0-144Zm56,72a55.72,55.72,0,0,1-11.16,33.52L134.49,43.16A56,56,0,0,1,224,88ZM54.32,216,40,201.68,102.14,117A72.37,72.37,0,0,0,139,153.86ZM112,88a55.67,55.67,0,0,1,11.16-33.51l78.34,78.34A56,56,0,0,1,112,88Zm-2.35,58.34a8,8,0,0,1,0,11.31l-8,8a8,8,0,1,1-11.31-11.31l8-8A8,8,0,0,1,109.67,146.33Z">
+                    </path>
                   </svg>
                 </div>
                 <div class="flex flex-col gap-1">
                   <h2 class="text-[#191610] text-base font-bold leading-tight">Stage &amp; Decor</h2>
-                  <p class="text-[#8c7f5a] text-sm font-normal leading-normal">Transform your venue with creative decor.</p>
+                  <p class="text-[#8c7f5a] text-sm font-normal leading-normal">Transform your venue with creative decor.
+                  </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <!-- About Us Section -->
+      <div id="about" class="relative flex size-full flex-col bg-[#fcfbf8] group/design-root overflow-x-hidden"
+        style='font-family: "Plus Jakarta Sans", "Noto Sans", sans-serif;'>
+        <div class="px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <h2 class="text-[#1c180d] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Our Story
+            </h2>
+            <p class="text-[#1c180d] text-base font-normal leading-normal pb-3 pt-1 px-4">
+              Founded in 2010 by Rachel Miller, RHM Events &amp; Weddings began as a small, family-run business with a
+              big dream: to create extraordinary events that leave a
+              lasting impression. Over the years, we've grown into a leading event planning company, known for our
+              meticulous attention to detail, creative flair, and personalized
+              service. Our journey has been filled with countless successful events, each one a testament to our
+              commitment to excellence.
+            </p>
+            <h2 class="text-[#1c180d] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Our
+              Mission</h2>
+            <p class="text-[#1c180d] text-base font-normal leading-normal pb-3 pt-1 px-4">
+              At RHM Events &amp; Weddings, our mission is to transform your dreams into reality. We believe that every
+              event should be a reflection of your unique style and
+              personality. Our team works closely with you to understand your vision, offering expert guidance and
+              support every step of the way. We strive to exceed expectations,
+              creating seamless and memorable experiences that you and your guests will cherish forever.
+            </p>
+            <h2 class="text-[#1c180d] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Why Choose
+              Us?</h2>
+            <div class="flex flex-col gap-10 px-4 py-10 @container">
+              <div class="flex flex-col gap-4">
+                <h1
+                  class="text-[#1c180d] tracking-light text-[32px] font-bold leading-tight @[480px]:text-4xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em] max-w-[720px]">
+                  What Sets Us Apart
+                </h1>
+                <p class="text-[#1c180d] text-base font-normal leading-normal max-w-[720px]">
+                  Discover why RHM Events &amp; Weddings is the preferred choice for discerning clients.
+                </p>
+              </div>
+              <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-0">
+                <div class="flex flex-1 gap-3 rounded-lg border border-[#e9e2ce] bg-[#fcfbf8] p-4 flex-col">
+                  <div class="text-[#1c180d]" data-icon="Star" data-size="24px" data-weight="regular">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor"
+                      viewBox="0 0 256 256">
+                      <path
+                        d="M239.2,97.29a16,16,0,0,0-13.81-11L166,81.17,142.72,25.81h0a15.95,15.95,0,0,0-29.44,0L90.07,81.17,30.61,86.32a16,16,0,0,0-9.11,28.06L66.61,153.8,53.09,212.34a16,16,0,0,0,23.84,17.34l51-31,51.11,31a16,16,0,0,0,23.84-17.34l-13.51-58.6,45.1-39.36A16,16,0,0,0,239.2,97.29Zm-15.22,5-45.1,39.36a16,16,0,0,0-5.08,15.71L187.35,216v0l-51.07-31a15.9,15.9,0,0,0-16.54,0l-51,31h0L82.2,157.4a16,16,0,0,0-5.08-15.71L32,102.35a.37.37,0,0,1,0-.09l59.44-5.14a16,16,0,0,0,13.35-9.75L128,32.08l23.2,55.29a16,16,0,0,0,13.35,9.75L224,102.26S224,102.32,224,102.33Z">
+                      </path>
+                    </svg>
+                  </div>
+                  <div class="flex flex-col gap-1">
+                    <h2 class="text-[#1c180d] text-base font-bold leading-tight">Unparalleled Expertise</h2>
+                    <p class="text-[#9e8747] text-sm font-normal leading-normal">
+                      With over a decade of experience, our team brings a wealth of knowledge and creativity to every
+                      event.
+                    </p>
+                  </div>
+                </div>
+                <div class="flex flex-1 gap-3 rounded-lg border border-[#e9e2ce] bg-[#fcfbf8] p-4 flex-col">
+                  <div class="text-[#1c180d]" data-icon="Users" data-size="24px" data-weight="regular">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor"
+                      viewBox="0 0 256 256">
+                      <path
+                        d="M117.25,157.92a60,60,0,1,0-66.5,0A95.83,95.83,0,0,0,3.53,195.63a8,8,0,1,0,13.4,8.74,80,80,0,0,1,134.14,0,8,8,0,0,0,13.4-8.74A95.83,95.83,0,0,0,117.25,157.92ZM40,108a44,44,0,1,1,44,44A44.05,44.05,0,0,1,40,108Zm210.14,98.7a8,8,0,0,1-11.07-2.33A79.83,79.83,0,0,0,172,168a8,8,0,0,1,0-16,44,44,0,1,0-16.34-84.87,8,8,0,1,1-5.94-14.85,60,60,0,0,1,55.53,105.64,95.83,95.83,0,0,1,47.22,37.71A8,8,0,0,1,250.14,206.7Z">
+                      </path>
+                    </svg>
+                  </div>
+                  <div class="flex flex-col gap-1">
+                    <h2 class="text-[#1c180d] text-base font-bold leading-tight">Personalized Approach</h2>
+                    <p class="text-[#9e8747] text-sm font-normal leading-normal">
+                      We take the time to understand your unique needs and preferences, tailoring our services to match
+                      your vision.
+                    </p>
+                  </div>
+                </div>
+                <div class="flex flex-1 gap-3 rounded-lg border border-[#e9e2ce] bg-[#fcfbf8] p-4 flex-col">
+                  <div class="text-[#1c180d]" data-icon="Calendar" data-size="24px" data-weight="regular">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor"
+                      viewBox="0 0 256 256">
+                      <path
+                        d="M208,32H184V24a8,8,0,0,0-16,0v8H88V24a8,8,0,0,0-16,0v8H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM72,48v8a8,8,0,0,0,16,0V48h80v8a8,8,0,0,0,16,0V48h24V80H48V48ZM208,208H48V96H208V208Zm-96-88v64a8,8,0,0,1-16,0V132.94l-4.42,2.22a8,8,0,0,1-7.16-14.32l16-8A8,8,0,0,1,112,120Zm59.16,30.45L152,176h16a8,8,0,0,1,0,16H136a8,8,0,0,1-6.4-12.8l28.78-38.37A8,8,0,1,0,145.07,132a8,8,0,1,1-13.85-8A24,24,0,0,1,176,136,23.76,23.76,0,0,1,171.16,150.45Z">
+                      </path>
+                    </svg>
+                  </div>
+                  <div class="flex flex-col gap-1">
+                    <h2 class="text-[#1c180d] text-base font-bold leading-tight">Flawless Execution</h2>
+                    <p class="text-[#9e8747] text-sm font-normal leading-normal">
+                      From concept to completion, we ensure every detail is perfect, delivering a seamless and
+                      stress-free experience.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h2 class="text-[#1c180d] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Meet the
+              Team</h2>
+            <div
+              class="flex overflow-x-auto [-ms-scrollbar-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden">
+              <div class="flex items-stretch p-4 gap-8">
+                <div class="flex h-full flex-1 flex-col gap-4 text-center rounded-lg min-w-32 pt-4">
+                  <div
+                    class="bg-center bg-no-repeat aspect-square bg-cover rounded-full flex flex-col self-center w-full"
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDFes4s3joj6HomVYVxt2GhPMSWv6qIWyYih1NHBq5eHTZILS3MpLcw66Xbzq5fkyHPphCmyxB7LIP4NTCXCXqeAljHU6pp01gRxQcnx7tDLNwSgF5yQOMNSmAoUjlwoqRDqa-CWkSDol32gpNtE5a42gxxDjykcrakYYRY4D7YexhBhtUarfjxHLwBGU29g6rpMv2wUx7uNkxwbTKiIk9pOPVwcbIl9y9BO9yTg-U8Ry22M7yrn4UGKFzPWvi3bpgFJxkbv674ELo");'>
+                  </div>
+                  <div>
+                    <p class="text-[#1c180d] text-base font-medium leading-normal">Rachel Miller</p>
+                    <p class="text-[#9e8747] text-sm font-normal leading-normal">Founder &amp; Lead Planner</p>
+                  </div>
+                </div>
+                <div class="flex h-full flex-1 flex-col gap-4 text-center rounded-lg min-w-32 pt-4">
+                  <div
+                    class="bg-center bg-no-repeat aspect-square bg-cover rounded-full flex flex-col self-center w-full"
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAo9GCDtF2K2_XRwXYLiiklqxPuz-bU-8fsi_P3uo6Yq6hYrKJsWITumJMFPE5falf9yi-x3MlEGPU5rqnUm6kj8IcfNZmw-PRpmtT-P09zi9mC9fX_AYYE8p9GBhjLtaMhcWTXOsVYOQirJ-gmzxEblKERAiH3-8lcbur6z28KMN4lc8liGDzzho6inSHNph9njs2tAPts9Kj251a2lOiRkzgKhUJ6ZFowqmWn5mO5qAlCqSYC4kzGSYgxlnejs6JxmYwm_4wnxBU");'>
+                  </div>
+                  <div>
+                    <p class="text-[#1c180d] text-base font-medium leading-normal">David Lee</p>
+                    <p class="text-[#9e8747] text-sm font-normal leading-normal">Senior Event Coordinator</p>
+                  </div>
+                </div>
+                <div class="flex h-full flex-1 flex-col gap-4 text-center rounded-lg min-w-32 pt-4">
+                  <div
+                    class="bg-center bg-no-repeat aspect-square bg-cover rounded-full flex flex-col self-center w-full"
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDLRCoGBNdBZiImaBypjH4Bzmcyw7lFG9EQCU2JrOz9DqxJuYgTbpQdNBNhe3pmq-K4E1CYVSevY-uRrId_pNMBPuF1xp7oVXE9gPNTMJkKf8TCwBI1qGzAnhnPhJ-zy2w0lceYUUm0bh9OwByf91RW0RDHbk_FIs-hxgpH4VoUfmXBT88bHxpYZ4nnYOSiiVPFR6xapCdqWS6WXo5TpfWCUrKneZX8337Rf2HCkrjpPKsdqVN33ww_D5DzCe2g6msGPlfP_s5DWT4");'>
+                  </div>
+                  <div>
+                    <p class="text-[#1c180d] text-base font-medium leading-normal">Sarah Chen</p>
+                    <p class="text-[#9e8747] text-sm font-normal leading-normal">Creative Director</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Event Gallery Section -->
+      <div id="gallery" class="px-40 flex flex-1 justify-center py-5 bg-[#fcfbf8]">
+        <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+          <h2 class="text-[#1c180d] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Event
+            Gallery</h2>
+          <div class="px-4 py-3">
+            <label class="flex flex-col min-w-40 h-12 w-full">
+              <div class="flex w-full flex-1 items-stretch rounded-lg h-full">
+                <div
+                  class="text-[#9e8747] flex border-none bg-[#f4f0e6] items-center justify-center pl-4 rounded-l-lg border-r-0"
+                  data-icon="MagnifyingGlass" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor"
+                    viewBox="0 0 256 256">
+                    <path
+                      d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z">
+                    </path>
+                  </svg>
+                </div>
+                <input id="gallery-search" placeholder="Search events..."
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#1c180d] focus:outline-0 focus:ring-0 border-none bg-[#f4f0e6] focus:border-none h-full placeholder:text-[#9e8747] px-4 rounded-l-none border-l-0 pl-2 text-base font-normal leading-normal"
+                  value="" />
+              </div>
+            </label>
+          </div>
+          <div id="gallery-filters" class="flex gap-3 p-3 flex-wrap pr-4">
+            <button
+              class="filter-btn active flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-[#fac638] pl-4 pr-4 text-[#1c180d] text-sm font-medium leading-normal"
+              data-filter="all">All Events</button>
+            <button
+              class="filter-btn flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-[#f4f0e6] pl-4 pr-4 text-[#1c180d] text-sm font-medium leading-normal"
+              data-filter="wedding">Weddings</button>
+            <button
+              class="filter-btn flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-[#f4f0e6] pl-4 pr-4 text-[#1c180d] text-sm font-medium leading-normal"
+              data-filter="corporate">Corporate Events</button>
+            <button
+              class="filter-btn flex h-8 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-[#f4f0e6] pl-4 pr-4 text-[#1c180d] text-sm font-medium leading-normal"
+              data-filter="party">Private Parties</button>
+          </div>
+          <div id="gallery-grid" class="grid grid-cols-[repeat(auto-fit,minmax(250px,1fr))] gap-3 p-4">
+            <a href="https://lh3.googleusercontent.com/aida-public/AB6AXuDkhpO1HvERc46rmgBR9rGdMvw2yUzFh3aBnOTxMG1gSFLB9NtfsbLFiLdQpNG8P7tIxscPQIF4gohlgjbgugGr3gF7cpZEFqqUq8uPwbyI_I0LSe7WOKGVzJs1zMeuCmvmTNhYiNfJt-so-PFMbqHMfVUWqy4YLBNVhS-QIwdc5p6rBOzQm0ltKxNbBKvg0KdiYFbhLy3zmujlw5oJzOdDHxR4V32AkXfn-RDtz5D6tIbDeRfratt-ykR7hAB0IJnRukMc0asvDas"
+              data-fancybox="gallery" data-caption="Wedding Ceremony" class="gallery-item wedding flex flex-col gap-3">
+              <div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg" loading="lazy"
+                style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDkhpO1HvERc46rmgBR9rGdMvw2yUzFh3aBnOTxMG1gSFLB9NtfsbLFiLdQpNG8P7tIxscPQIF4gohlgjbgugGr3gF7cpZEFqqUq8uPwbyI_I0LSe7WOKGVzJs1zMeuCmvmTNhYiNfJt-so-PFMbqHMfVUWqy4YLBNVhS-QIwdc5p6rBOzQm0ltKxNbBKvg0KdiYFbhLy3zmujlw5oJzOdDHxR4V32AkXfn-RDtz5D6tIbDeRfratt-ykR7hAB0IJnRukMc0asvDas");'>
+              </div>
+            </a>
+            <a href="https://lh3.googleusercontent.com/aida-public/AB6AXuDyeNvrhoukkAUzWylTz7KOtO-_tXuAVyE7DM3wXaRJgDq1kMfK30ipkMndWdB1MqVj9yf68fU0rleOMxe5EUeJyXX7YzqSqvqidPCvK645GWTG0vMmVsyv6bbqcuHYrPyOftp_fxKxTegaJ0Mg7_LKKlajA31O7rls01WOFJdKFHTXVhuqCPliU4DH2L0xQ8uS3UUgpM9MeRC7wAEBPnQzaqrvyEaIQm7Thzn9fw-MGpwVjI3nPLdm_4LOVSbXdgb4CB0xTsB0OD0"
+              data-fancybox="gallery" data-caption="Corporate Meetup"
+              class="gallery-item corporate flex flex-col gap-3">
+              <div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg" loading="lazy"
+                style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDyeNvrhoukkAUzWylTz7KOtO-_tXuAVyE7DM3wXaRJgDq1kMfK30ipkMndWdB1MqVj9yf68fU0rleOMxe5EUeJyXX7YzqSqvqidPCvK645GWTG0vMmVsyv6bbqcuHYrPyOftp_fxKxTegaJ0Mg7_LKKlajA31O7rls01WOFJdKFHTXVhuqCPliU4DH2L0xQ8uS3UUgpM9MeRC7wAEBPnQzaqrvyEaIQm7Thzn9fw-MGpwVjI3nPLdm_4LOVSbXdgb4CB0xTsB0OD0");'>
+              </div>
+            </a>
+            <a href="https://lh3.googleusercontent.com/aida-public/AB6AXuC0a_SIh-lC4rsrDsfXH6OgInT6NzGgW-OaRSTTJuAjZqY6GxaH9ohG2YNVth76l2DXptwlTC7PsTai63HnnEyKPSxmouUN6HzwtC_isImrYq0OulnziNayXn8hOgX46rLp9yd9AanKFVBhyS-NxfCBtl7kFtVo4cImoKtjPxnudc_OiIvLwsqw8dUVzpg4T21bL34BM-eSgeVGbhRrdTOvQyVWurJxeyTfOV21TsulJuWioQm7tCl6ZBo-4FNjJLl1OtkYAdzq_Lk"
+              data-fancybox="gallery" data-caption="Private Party" class="gallery-item party flex flex-col gap-3">
+              <div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg" loading="lazy"
+                style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuC0a_SIh-lC4rsrDsfXH6OgInT6NzGgW-OaRSTTJuAjZqY6GxaH9ohG2YNVth76l2DXptwlTC7PsTai63HnnEyKPSxmouUN6HzwtC_isImrYq0OulnziNayXn8hOgX46rLp9yd9AanKFVBhyS-NxfCBtl7kFtVo4cImoKtjPxnudc_OiIvLwsqw8dUVzpg4T21bL34BM-eSgeVGbhRrdTOvQyVWurJxeyTfOV21TsulJuWioQm7tCl6ZBo-4FNjJLl1OtkYAdzq_Lk");'>
+              </div>
+            </a>
+            <a href="https://lh3.googleusercontent.com/aida-public/AB6AXuB4kyA975661PV9wWA_719QEgnPEtbVc-rKtRcEApaVkL6rSBYp_QAqTXXD4pLCRLdkc5CUDAXGpI3vdKdlPWeZCMuNwSeXE6P_dzaHYcX12Gr9j2Y7DcoBv3XjTyUGBUuwV8IVlTCQjuxmWsDzIWvVGeOsUF5hJQMuiCPWrpQ1ozq_e8eS862KS3_3Db9niiW6gIeuaF0qx3xx51COTSDtETYrFXQb4rNiz9fiVBqOzoE9D2cUs12kr_779sTx2PRtxzJApgmJbXw"
+              data-fancybox="gallery" data-caption="Wedding Reception" class="gallery-item wedding flex flex-col gap-3">
+              <div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg" loading="lazy"
+                style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuB4kyA975661PV9wWA_719QEgnPEtbVc-rKtRcEApaVkL6rSBYp_QAqTXXD4pLCRLdkc5CUDAXGpI3vdKdlPWeZCMuNwSeXE6P_dzaHYcX12Gr9j2Y7DcoBv3XjTyUGBUuwV8IVlTCQjuxmWsDzIWvVGeOsUF5hJQMuiCPWrpQ1ozq_e8eS862KS3_3Db9niiW6gIeuaF0qx3xx51COTSDtETYrFXQb4rNiz9fiVBqOzoE9D2cUs12kr_779sTx2PRtxzJApgmJbXw");'>
+              </div>
+            </a>
+            <a href="https://lh3.googleusercontent.com/aida-public/AB6AXuDO8fHq34uzBHc2INzgS32oEmtss3PFzpb3llQZ5ew9mjHjqY3L4VpjBSq6fiKslXFOout4qgigHkYphkxvHdyN_Kirci9PYowoimqxxKNyG18tvcXsYTYHejfYmpfHfSv1chA66h63afN2f73Q-HjrAoDTcmxNMYZl8MbizAUQfPlmiKY_n5qGXZ2gpb4LjGY_h-eA00uTo0DJswkY1JSQjQNFpf_C8nX45iBqrjhUJOJGA3hA8EGpUj_YNDpY0IakqA26jC2_AUQ"
+              data-fancybox="gallery" data-caption="Corporate Seminar"
+              class="gallery-item corporate flex flex-col gap-3">
+              <div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg" loading="lazy"
+                style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDO8fHq34uzBHc2INzgS32oEmtss3PFzpb3llQZ5ew9mjHjqY3L4VpjBSq6fiKslXFOout4qgigHkYphkxvHdyN_Kirci9PYowoimqxxKNyG18tvcXsYTYHejfYmpfHfSv1chA66h63afN2f73Q-HjrAoDTcmxNMYZl8MbizAUQfPlmiKY_n5qGXZ2gpb4LjGY_h-eA00uTo0DJswkY1JSQjQNFpf_C8nX45iBqrjhUJOJGA3hA8EGpUj_YNDpY0IakqA26jC2_AUQ");'>
+              </div>
+            </a>
+            <a href="https://lh3.googleusercontent.com/aida-public/AB6AXuCSzvkqOOtkN0HczkwYTRK1kFAmMVC9sW2pkyFAiKCNAqvEtn2eR14tRifoX7mLBVyglO4PNFVy3OHAMA91ZNgYSZ02WGMIVDgOIPVEGE0Sgyhpf1TMz_DQDkvQYFp6MPqaH2TnDoVvUHEzkpN7f2m9FIVkpZykH2v22w6iK6MHQrDaYL38GpJiil3xqneTV17Ov8halE4PdRLrmaDDL3zOcvP1UB6swhuohrlxKTCzy5ZKuU9zpNv498pAcSHDtCePA3W_XtlF9RI"
+              data-fancybox="gallery" data-caption="Birthday Party" class="gallery-item party flex flex-col gap-3">
+              <div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg" loading="lazy"
+                style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCSzvkqOOtkN0HczkwYTRK1kFAmMVC9sW2pkyFAiKCNAqvEtn2eR14tRifoX7mLBVyglO4PNFVy3OHAMA91ZNgYSZ02WGMIVDgOIPVEGE0Sgyhpf1TMz_DQDkvQYFp6MPqaH2TnDoVvUHEzkpN7f2m9FIVkpZykH2v22w6iK6MHQrDaYL38GpJiil3xqneTV17Ov8halE4PdRLrmaDDL3zOcvP1UB6swhuohrlxKTCzy5ZKuU9zpNv498pAcSHDtCePA3W_XtlF9RI");'>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
 
-      <!-- testimonials section -->
-       <div class="relative flex size-full min-h-screen flex-col bg-[#fcfbf8] group/design-root overflow-x-hidden" style='font-family: "Plus Jakarta Sans", "Noto Sans", sans-serif;'>
+    <!-- testimonials section -->
+    <div class="relative flex size-full min-h-screen flex-col bg-[#fcfbf8] group/design-root overflow-x-hidden"
+      style='font-family: "Plus Jakarta Sans", "Noto Sans", sans-serif;'>
       <div class="layout-container flex h-full grow flex-col">
         <div class="px-40 flex flex-1 justify-center py-5">
           <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
-            <h2 class="text-[#1c180d] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Client Testimonials</h2>
-            <div class="flex overflow-y-auto [-ms-scrollbar-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden">
-              <div class="flex items-stretch p-4 gap-3">
-                <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-60">
-                  <div
-                    class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg flex flex-col"
-                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAyn2leX2LpsN4vEKFkxHfUciCVr3kzUjKkkZ9_Qav8cRiDhI249uBdaMzpFX6ped1GeUxQxAYSeQq-zqoOsDLV5jvyltoGm0D6zhFo3YsczmhPpGJw656J-w5xPaH9ZTTjF29KBpLVaS_L6oqm7VU0bFYWDSQGtexvvtE6abvora90603AZcfcQ5QZOl0R4TjoOSp6xSwwc1vZJzusZmwqKrl3uCQzD_zWmvBpya8zrm6-cNFpTCzZNJITGkcTD33hFBu9uNSkjqM");'
-                  ></div>
-                  <div>
-                    <p class="text-[#1c180d] text-base font-medium leading-normal">Sarah &amp; Mark</p>
-                    <p class="text-[#9e8747] text-sm font-normal leading-normal">
-                      "RHM Events made our wedding day absolutely perfect. Their attention to detail and personalized service exceeded our expectations."
-                    </p>
+            <h2 class="text-[#1c180d] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Client
+              Testimonials</h2>
+            <div class="relative w-full">
+              <div id="testimonials-container"
+                class="flex overflow-x-auto scroll-smooth snap-x snap-mandatory [-ms-scrollbar-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden pb-4">
+                <div class="flex items-stretch p-4 gap-6 w-full">
+                  <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-60">
+                    <div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg flex flex-col"
+                      style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAyn2leX2LpsN4vEKFkxHfUciCVr3kzUjKkkZ9_Qav8cRiDhI249uBdaMzpFX6ped1GeUxQxAYSeQq-zqoOsDLV5jvyltoGm0D6zhFo3YsczmhPpGJw656J-w5xPaH9ZTTjF29KBpLVaS_L6oqm7VU0bFYWDSQGtexvvtE6abvora90603AZcfcQ5QZOl0R4TjoOSp6xSwwc1vZJzusZmwqKrl3uCQzD_zWmvBpya8zrm6-cNFpTCzZNJITGkcTD33hFBu9uNSkjqM");'>
+                    </div>
+                    <div>
+                      <p class="text-[#1c180d] text-base font-medium leading-normal">Sarah &amp; Mark</p>
+                      <p class="text-[#9e8747] text-sm font-normal leading-normal">
+                        "RHM Events made our wedding day absolutely perfect. Their attention to detail and personalized
+                        service exceeded our expectations."
+                      </p>
+                    </div>
+                  </div>
+                  <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-60">
+                    <div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg flex flex-col"
+                      style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCXtOXWXY0kU5EvmwN8p2KNFIPgYCrScGW14ULUmdfftq0JT7zdD-2Q9am3BX8YeMKuFkLP5MVNXiWLX6hCGWnCdyicGlJPP5Wht61RrzNg6prJVJBObtkUZJmzT55Jp2cruphknjHEoefHXFUaEt_D8e7CSUKznOfIE1bBFmzNWf4lcgQ3bHZfi5i5juwmOCStjcF_-1rmCS0a7cCq0nIwxTOnAbDncz44hTCoAy-BiXAI9McHV7AUi_o0wWatkGhxFRzT-A9a0Ig");'>
+                    </div>
+                    <div>
+                      <p class="text-[#1c180d] text-base font-medium leading-normal">Emily &amp; David</p>
+                      <p class="text-[#9e8747] text-sm font-normal leading-normal">
+                        "From planning to execution, RHM Events was exceptional. They handled everything flawlessly,
+                        allowing us to enjoy our special day."
+                      </p>
+                    </div>
+                  </div>
+                  <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-60">
+                    <div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg flex flex-col"
+                      style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCRYGafkiXRL5CwnAlz08NjkM61NneuxHeIz6fZHuaBw657xRkmND7Kj7VlNVPOwvu64Ej9_y-CoZ1IJz8wsui43WJwWV78iZc8kTQlyr0pxKwaf3JoHCJU0E07Q5wtPCZdQhrw7c0Z14njsLHSFtuOZVijUPH0lcbFEOY7JprzlooV2Ofump_DVTA9ZaP34Qu6fVn5cUEobitNfEIvYNowYrok4XhOsCnXliVbWk4UDt3ZxgHiKhUo66g-YW7eq1ZSbBeWQScw8AI");'>
+                    </div>
+                    <div>
+                      <p class="text-[#1c180d] text-base font-medium leading-normal">Jessica &amp; Ryan</p>
+                      <p class="text-[#9e8747] text-sm font-normal leading-normal">
+                        "We are so grateful to RHM Events for creating the wedding of our dreams. Their creativity and
+                        professionalism were outstanding."
+                      </p>
+                    </div>
                   </div>
                 </div>
-                <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-60">
-                  <div
-                    class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg flex flex-col"
-                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCXtOXWXY0kU5EvmwN8p2KNFIPgYCrScGW14ULUmdfftq0JT7zdD-2Q9am3BX8YeMKuFkLP5MVNXiWLX6hCGWnCdyicGlJPP5Wht61RrzNg6prJVJBObtkUZJmzT55Jp2cruphknjHEoefHXFUaEt_D8e7CSUKznOfIE1bBFmzNWf4lcgQ3bHZfi5i5juwmOCStjcF_-1rmCS0a7cCq0nIwxTOnAbDncz44hTCoAy-BiXAI9McHV7AUi_o0wWatkGhxFRzT-A9a0Ig");'
-                  ></div>
-                  <div>
-                    <p class="text-[#1c180d] text-base font-medium leading-normal">Emily &amp; David</p>
-                    <p class="text-[#9e8747] text-sm font-normal leading-normal">
-                      "From planning to execution, RHM Events was exceptional. They handled everything flawlessly, allowing us to enjoy our special day."
-                    </p>
+                <!-- Carousel Navigation Controls -->
+                <div class="flex items-center justify-center gap-4 pt-4">
+                  <button id="prev-testimonial"
+                    class="flex size-10 cursor-pointer items-center justify-center rounded-full bg-[#f4f0e6] text-[#1c180d] hover:bg-[#e9e2ce] transition-colors">
+                    <i class="fa-solid fa-chevron-left"></i>
+                  </button>
+                  <div id="testimonial-dots" class="flex gap-2">
+                    <div class="size-2 rounded-full bg-[#fac638] cursor-pointer"></div>
+                    <div class="size-2 rounded-full bg-[#e9e2ce] cursor-pointer"></div>
+                    <div class="size-2 rounded-full bg-[#e9e2ce] cursor-pointer"></div>
                   </div>
-                </div>
-                <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-60">
-                  <div
-                    class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-lg flex flex-col"
-                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCRYGafkiXRL5CwnAlz08NjkM61NneuxHeIz6fZHuaBw657xRkmND7Kj7VlNVPOwvu64Ej9_y-CoZ1IJz8wsui43WJwWV78iZc8kTQlyr0pxKwaf3JoHCJU0E07Q5wtPCZdQhrw7c0Z14njsLHSFtuOZVijUPH0lcbFEOY7JprzlooV2Ofump_DVTA9ZaP34Qu6fVn5cUEobitNfEIvYNowYrok4XhOsCnXliVbWk4UDt3ZxgHiKhUo66g-YW7eq1ZSbBeWQScw8AI");'
-                  ></div>
-                  <div>
-                    <p class="text-[#1c180d] text-base font-medium leading-normal">Jessica &amp; Ryan</p>
-                    <p class="text-[#9e8747] text-sm font-normal leading-normal">
-                      "We are so grateful to RHM Events for creating the wedding of our dreams. Their creativity and professionalism were outstanding."
-                    </p>
-                  </div>
+                  <button id="next-testimonial"
+                    class="flex size-10 cursor-pointer items-center justify-center rounded-full bg-[#f4f0e6] text-[#1c180d] hover:bg-[#e9e2ce] transition-colors">
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </button>
                 </div>
               </div>
             </div>
@@ -214,138 +485,226 @@
     </div>
 
     <!-- FAQ section -->
-     <div class="px-40 flex flex-1 justify-center py-5">
-          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
-            <div class="flex flex-wrap justify-between gap-3 p-4">
-              <p class="text-[#1c180d] tracking-light text-[32px] font-bold leading-tight min-w-72">Frequently Asked Questions</p>
-            </div>
-            <div class="flex flex-col p-4 gap-3">
-              <details class="flex flex-col rounded-lg border border-[#e9e2ce] bg-[#fcfbf8] px-[15px] py-[7px] group" open="">
-                <summary class="flex cursor-pointer items-center justify-between gap-6 py-2">
-                  <p class="text-[#1c180d] text-sm font-medium leading-normal">What types of events do you plan?</p>
-                  <div class="text-[#1c180d] group-open:rotate-180" data-icon="CaretDown" data-size="20px" data-weight="regular">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
-                      <path d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"></path>
-                    </svg>
-                  </div>
-                </summary>
-                <p class="text-[#9e8747] text-sm font-normal leading-normal pb-2">
-                  We specialize in planning a wide range of events, including weddings, corporate events, social gatherings, and private parties. Our team has experience in
-                  handling events of all sizes and styles, from intimate gatherings to large-scale celebrations.
-                </p>
-              </details>
-              <details class="flex flex-col rounded-lg border border-[#e9e2ce] bg-[#fcfbf8] px-[15px] py-[7px] group">
-                <summary class="flex cursor-pointer items-center justify-between gap-6 py-2">
-                  <p class="text-[#1c180d] text-sm font-medium leading-normal">How far in advance should I book your services?</p>
-                  <div class="text-[#1c180d] group-open:rotate-180" data-icon="CaretDown" data-size="20px" data-weight="regular">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
-                      <path d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"></path>
-                    </svg>
-                  </div>
-                </summary>
-                <p class="text-[#9e8747] text-sm font-normal leading-normal pb-2">
-                  We specialize in planning a wide range of events, including weddings, corporate events, social gatherings, and private parties. Our team has experience in
-                  handling events of all sizes and styles, from intimate gatherings to large-scale celebrations.
-                </p>
-              </details>
-              <details class="flex flex-col rounded-lg border border-[#e9e2ce] bg-[#fcfbf8] px-[15px] py-[7px] group">
-                <summary class="flex cursor-pointer items-center justify-between gap-6 py-2">
-                  <p class="text-[#1c180d] text-sm font-medium leading-normal">What is included in your event planning packages?</p>
-                  <div class="text-[#1c180d] group-open:rotate-180" data-icon="CaretDown" data-size="20px" data-weight="regular">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
-                      <path d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"></path>
-                    </svg>
-                  </div>
-                </summary>
-                <p class="text-[#9e8747] text-sm font-normal leading-normal pb-2">
-                  We specialize in planning a wide range of events, including weddings, corporate events, social gatherings, and private parties. Our team has experience in
-                  handling events of all sizes and styles, from intimate gatherings to large-scale celebrations.
-                </p>
-              </details>
-              <details class="flex flex-col rounded-lg border border-[#e9e2ce] bg-[#fcfbf8] px-[15px] py-[7px] group">
-                <summary class="flex cursor-pointer items-center justify-between gap-6 py-2">
-                  <p class="text-[#1c180d] text-sm font-medium leading-normal">Do you offer custom packages?</p>
-                  <div class="text-[#1c180d] group-open:rotate-180" data-icon="CaretDown" data-size="20px" data-weight="regular">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
-                      <path d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"></path>
-                    </svg>
-                  </div>
-                </summary>
-                <p class="text-[#9e8747] text-sm font-normal leading-normal pb-2">
-                  We specialize in planning a wide range of events, including weddings, corporate events, social gatherings, and private parties. Our team has experience in
-                  handling events of all sizes and styles, from intimate gatherings to large-scale celebrations.
-                </p>
-              </details>
-              <details class="flex flex-col rounded-lg border border-[#e9e2ce] bg-[#fcfbf8] px-[15px] py-[7px] group">
-                <summary class="flex cursor-pointer items-center justify-between gap-6 py-2">
-                  <p class="text-[#1c180d] text-sm font-medium leading-normal">How do you handle unexpected issues on the day of the event?</p>
-                  <div class="text-[#1c180d] group-open:rotate-180" data-icon="CaretDown" data-size="20px" data-weight="regular">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
-                      <path d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z"></path>
-                    </svg>
-                  </div>
-                </summary>
-                <p class="text-[#9e8747] text-sm font-normal leading-normal pb-2">
-                  We specialize in planning a wide range of events, including weddings, corporate events, social gatherings, and private parties. Our team has experience in
-                  handling events of all sizes and styles, from intimate gatherings to large-scale celebrations.
-                </p>
-              </details>
-            </div>
-          </div>
+    <div class="px-40 flex flex-1 justify-center py-5">
+      <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+        <div class="flex flex-wrap justify-between gap-3 p-4">
+          <p class="text-[#1c180d] tracking-light text-[32px] font-bold leading-tight min-w-72">Frequently Asked
+            Questions</p>
         </div>
-    </div>
-
-    <!-- <div id="footer"></div> -->
-   <!-- Footer with Dynamic Links -->
-        <footer class="flex justify-center">
-          <div class="flex max-w-[960px] flex-1 flex-col">
-            <footer class="flex flex-col gap-6 px-5 py-10 text-center @container">
-              <div class="flex flex-wrap items-center justify-center gap-6 @[480px]:flex-row @[480px]:justify-around">
-                <a id="footer-home" class="text-[#9e8747] text-base font-normal leading-normal min-w-40" href="/">Home</a>
-                <a id="footer-gallery" class="text-[#9e8747] text-base font-normal leading-normal min-w-40" href="./pages/gallery.html">Events Gallery</a>
-                <a id="footer-about" class="text-[#9e8747] text-base font-normal leading-normal min-w-40" href="./pages/about.html">About Us</a>
-                <a id="footer-contact" class="text-[#9e8747] text-base font-normal leading-normal min-w-40" href="./pages/contact.html">Contact</a>
+        <div id="faq-container" class="flex flex-col p-4 gap-3">
+          <details class="flex flex-col rounded-lg border border-[#e9e2ce] bg-[#fcfbf8] px-[15px] py-[7px] group"
+            open="">
+            <summary class="flex cursor-pointer items-center justify-between gap-6 py-2">
+              <p class="text-[#1c180d] text-sm font-medium leading-normal">What types of events do you plan?</p>
+              <div class="text-[#1c180d] group-open:rotate-180" data-icon="CaretDown" data-size="20px"
+                data-weight="regular">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor"
+                  viewBox="0 0 256 256">
+                  <path
+                    d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z">
+                  </path>
+                </svg>
               </div>
-              <p class="text-[#9e8747] text-base font-normal leading-normal">@2025 RHM Events &amp; Weddings. All rights reserved.</p>
-            </footer>
-          </div>
-        </footer>
+            </summary>
+            <p class="text-[#9e8747] text-sm font-normal leading-normal pb-2">
+              We specialize in planning a wide range of events, including weddings, corporate events, social gatherings,
+              and private parties. Our team has experience in
+              handling events of all sizes and styles, from intimate gatherings to large-scale celebrations.
+            </p>
+          </details>
+          <details class="flex flex-col rounded-lg border border-[#e9e2ce] bg-[#fcfbf8] px-[15px] py-[7px] group">
+            <summary class="flex cursor-pointer items-center justify-between gap-6 py-2">
+              <p class="text-[#1c180d] text-sm font-medium leading-normal">How far in advance should I book your
+                services?</p>
+              <div class="text-[#1c180d] group-open:rotate-180" data-icon="CaretDown" data-size="20px"
+                data-weight="regular">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor"
+                  viewBox="0 0 256 256">
+                  <path
+                    d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z">
+                  </path>
+                </svg>
+              </div>
+            </summary>
+            <p class="text-[#9e8747] text-sm font-normal leading-normal pb-2">
+              We specialize in planning a wide range of events, including weddings, corporate events, social gatherings,
+              and private parties. Our team has experience in
+              handling events of all sizes and styles, from intimate gatherings to large-scale celebrations.
+            </p>
+          </details>
+          <details class="flex flex-col rounded-lg border border-[#e9e2ce] bg-[#fcfbf8] px-[15px] py-[7px] group">
+            <summary class="flex cursor-pointer items-center justify-between gap-6 py-2">
+              <p class="text-[#1c180d] text-sm font-medium leading-normal">What is included in your event planning
+                packages?</p>
+              <div class="text-[#1c180d] group-open:rotate-180" data-icon="CaretDown" data-size="20px"
+                data-weight="regular">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor"
+                  viewBox="0 0 256 256">
+                  <path
+                    d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z">
+                  </path>
+                </svg>
+              </div>
+            </summary>
+            <p class="text-[#9e8747] text-sm font-normal leading-normal pb-2">
+              We specialize in planning a wide range of events, including weddings, corporate events, social gatherings,
+              and private parties. Our team has experience in
+              handling events of all sizes and styles, from intimate gatherings to large-scale celebrations.
+            </p>
+          </details>
+          <details class="flex flex-col rounded-lg border border-[#e9e2ce] bg-[#fcfbf8] px-[15px] py-[7px] group">
+            <summary class="flex cursor-pointer items-center justify-between gap-6 py-2">
+              <p class="text-[#1c180d] text-sm font-medium leading-normal">Do you offer custom packages?</p>
+              <div class="text-[#1c180d] group-open:rotate-180" data-icon="CaretDown" data-size="20px"
+                data-weight="regular">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor"
+                  viewBox="0 0 256 256">
+                  <path
+                    d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z">
+                  </path>
+                </svg>
+              </div>
+            </summary>
+            <p class="text-[#9e8747] text-sm font-normal leading-normal pb-2">
+              We specialize in planning a wide range of events, including weddings, corporate events, social gatherings,
+              and private parties. Our team has experience in
+              handling events of all sizes and styles, from intimate gatherings to large-scale celebrations.
+            </p>
+          </details>
+          <details class="flex flex-col rounded-lg border border-[#e9e2ce] bg-[#fcfbf8] px-[15px] py-[7px] group">
+            <summary class="flex cursor-pointer items-center justify-between gap-6 py-2">
+              <p class="text-[#1c180d] text-sm font-medium leading-normal">How do you handle unexpected issues on the
+                day of the event?</p>
+              <div class="text-[#1c180d] group-open:rotate-180" data-icon="CaretDown" data-size="20px"
+                data-weight="regular">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor"
+                  viewBox="0 0 256 256">
+                  <path
+                    d="M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z">
+                  </path>
+                </svg>
+              </div>
+            </summary>
+            <p class="text-[#9e8747] text-sm font-normal leading-normal pb-2">
+              We specialize in planning a wide range of events, including weddings, corporate events, social gatherings,
+              and private parties. Our team has experience in
+              handling events of all sizes and styles, from intimate gatherings to large-scale celebrations.
+            </p>
+          </details>
+        </div>
       </div>
     </div>
+  </div>
 
-    <!-- Navigation Setup Script -->
-    <script>
-      // Set up navigation links when page loads
-      document.addEventListener('DOMContentLoaded', function() {
-        // Navigation links
-        document.getElementById('nav-home').href = getPath('index.html');
-        document.getElementById('nav-gallery').href = getPath('pages/gallery.html');
-        document.getElementById('nav-about').href = getPath('pages/about.html');
-        document.getElementById('nav-contact').href = getPath('pages/contact.html');
-        
-        // Footer links
-        document.getElementById('footer-home').href = getPath('index.html');
-        document.getElementById('footer-gallery').href = getPath('pages/gallery.html');
-        document.getElementById('footer-about').href = getPath('pages/about.html');
-        document.getElementById('footer-contact').href = getPath('pages/contact.html');
-      });
+  <!-- Contact & Location Section -->
+  <div id="contact" class="px-40 flex flex-1 justify-center py-5 bg-[#fcfbf8]">
+    <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <!-- Contact Form -->
+        <div>
+          <h2 class="text-[#1c180d] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Contact Us
+          </h2>
+          <form id="contact-form" class="flex flex-col">
+            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+              <label class="flex flex-col min-w-40 flex-1">
+                <p class="text-[#1c180d] text-base font-medium leading-normal pb-2">Your Name</p>
+                <input id="contact-name" name="from_name" required placeholder="Enter your name"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#1c180d] focus:outline-none border-none bg-[#f4f0e6] focus:ring-2 focus:ring-[#fac638] h-14 placeholder:text-[#9e8747] p-4 text-base font-normal leading-normal"
+                  value="" />
+              </label>
+            </div>
+            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+              <label class="flex flex-col min-w-40 flex-1">
+                <p class="text-[#1c180d] text-base font-medium leading-normal pb-2">Your Email</p>
+                <input id="contact-email" name="reply_to" type="email" required placeholder="Enter your email"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#1c180d] focus:outline-none border-none bg-[#f4f0e6] focus:ring-2 focus:ring-[#fac638] h-14 placeholder:text-[#9e8747] p-4 text-base font-normal leading-normal"
+                  value="" />
+              </label>
+            </div>
+            <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+              <label class="flex flex-col min-w-40 flex-1">
+                <p class="text-[#1c180d] text-base font-medium leading-normal pb-2">Your Message</p>
+                <textarea id="contact-message" name="message" required placeholder="Enter your message"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#1c180d] focus:outline-none border-none bg-[#f4f0e6] focus:ring-2 focus:ring-[#fac638] min-h-36 placeholder:text-[#9e8747] p-4 text-base font-normal leading-normal"></textarea>
+              </label>
+            </div>
+            <div class="flex max-w-[480px] px-4 py-3 justify-end items-center gap-4">
+              <span id="contact-status" class="hidden text-sm font-medium"></span>
+              <button type="submit" id="contact-submit"
+                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-[#fac638] text-[#1c180d] text-sm font-bold leading-normal tracking-[0.015em] hover:bg-[#e0b232] transition-colors">
+                <span class="truncate">Send Message</span>
+              </button>
+            </div>
+          </form>
+        </div>
 
-      // Hero carousel script
-      const heroImages = [
-        "assets/images/hero/hero_image1.jpg",
-        "assets/images/hero/hero_image2.jpg",
-        "assets/images/hero/hero_image3.jpg"
-      ];
-      let current = 0;
-      setInterval(() => {
-        current = (current + 1) % heroImages.length;
-        document.getElementById("hero-section").style.backgroundImage =
-          `linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%), url('${heroImages[current]}')`;
-      }, 3000);
-    </script>
+        <!-- Location -->
+        <div>
+          <h2 class="text-[#1c180d] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Our Location
+          </h2>
+          <div class="flex px-4 py-3 h-full min-h-[300px]">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3934.3995834895!2d76.7770!3d9.6920!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b07cca98e29a9ad%3A0x6b4ef82eef110860!2sErattupetta%2C%20Kerala!5e0!3m2!1sen!2sin!4v1689840209232!5m2!1sen!2sin"
+              class="w-full h-full rounded-lg border-0 shadow-sm min-h-[300px]" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-    <script src="./assets/js/script.js"></script>
-    <script src="path-config.js"></script>
-    <script src="environment-test.js"></script>
+  <!-- <div id="footer"></div> -->
+  <!-- Footer with Dynamic Links -->
+  <footer class="flex justify-center">
+    <div class="flex max-w-[960px] flex-1 flex-col">
+      <footer class="flex flex-col gap-6 px-5 py-10 text-center @container">
+        <div class="flex flex-wrap items-center justify-center gap-6 @[480px]:flex-row @[480px]:justify-around">
+          <a id="footer-home" class="text-[#9e8747] text-base font-normal leading-normal min-w-40"
+            href="#hero-section">Home</a>
+          <a id="footer-gallery" class="text-[#9e8747] text-base font-normal leading-normal min-w-40"
+            href="#gallery">Events Gallery</a>
+          <a id="footer-about" class="text-[#9e8747] text-base font-normal leading-normal min-w-40" href="#about">About
+            Us</a>
+          <a id="footer-contact" class="text-[#9e8747] text-base font-normal leading-normal min-w-40"
+            href="#contact">Contact</a>
+        </div>
+        <p class="text-[#9e8747] text-base font-normal leading-normal">@2025 RHM Events &amp; Weddings. All rights
+          reserved.</p>
+      </footer>
+    </div>
+  </footer>
+  </div>
+  </div>
+
+  <!-- WhatsApp Floating Widget -->
+  <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer" title="Chat on WhatsApp"
+    class="fixed bottom-6 right-6 flex size-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-lg shadow-black/20 hover:scale-110 transition-transform z-50">
+    <i class="fa-brands fa-whatsapp text-3xl"></i>
+  </a>
+
+  <!-- Navigation Setup Script -->
+  <script>
+    // Navigation scroll handled natively by anchor tags
+
+    // Hero carousel script
+    const heroImages = [
+      "assets/images/hero/hero_image1.jpg",
+      "assets/images/hero/hero_image2.jpg",
+      "assets/images/hero/hero_image3.jpg"
+    ];
+    let current = 0;
+    setInterval(() => {
+      current = (current + 1) % heroImages.length;
+      document.getElementById("hero-section").style.backgroundImage =
+        `linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%), url('${heroImages[current]}')`;
+    }, 3000);
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+  <script src="./assets/js/script.js"></script>
+  <script src="path-config.js"></script>
+  <script src="environment-test.js"></script>
 </body>
+
 </html>
